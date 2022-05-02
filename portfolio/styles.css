@@ -1,0 +1,71 @@
+
+
+body {
+  background-image: -webkit-linear-gradient(65deg, #798777  50%, #F8EDE3 50%);
+}
+
+.margins {
+  margin: 7% 15%;
+  text-align: center;
+}
+
+  .header {
+    font-size:1.5 rem;
+  }
+
+.container-fluid {
+  background-color: #F8EDE3;
+  padding-top: 1.5rem;
+}
+
+
+  
+
+  #head {
+    padding: 100px;
+    border-bottom: 10px;
+  }
+
+  #about {
+
+  }
+
+  img {
+    width: auto;
+    height: auto;
+    max-width: 250px;
+    max-height: 250px;
+  }
+  
+
+  .inputs {
+    padding:10px;
+  }
+
+  .submitButton {
+    margin: 25px;
+  }
+
+  form {
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+    width: 250px;
+  }
+
+  .container-fluid {
+    width: 100%;
+  }
+
+  button {
+    text-align: center;
+  }
+
+ .fname{
+   padding-right: 0px;
+ }
+
+ .lname {
+   padding-left: 0px;
+ }
