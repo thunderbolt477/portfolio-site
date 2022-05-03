@@ -50,7 +50,7 @@ body {
     display: inline-block;
     margin-left: auto;
     margin-right: auto;
-    text-align: left;
+    text-align: center;
     width: 250px;
   }
 
@@ -62,10 +62,29 @@ body {
     text-align: center;
   }
 
- .fname{
-   padding-right: 0px;
- }
+  .form-container {
+    position:relative;
+    left:20%;
+    width:60%;
+    height: 100vh;
 
- .lname {
-   padding-left: 0px;
- }
+  }
+
+  .contact-form {
+    position: absolute;
+    top:10%;
+    left: 10%;
+    width:80%;
+    height:600px;
+  }
+
+  input, text area {
+    width: 100%;
+    margin-top: 2rem;
+    border: none;
+    border-bottom: 1px solid black;
+  }
+
+  .submit:hover {
+    opacity: 0.6;
+  }
