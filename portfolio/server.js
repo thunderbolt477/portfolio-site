@@ -13,14 +13,18 @@ app.use(express.static(__dirname + '/public'));
 app.use(express.json())
 
 
+app.get("/", (req, res) =>{
+    res.sendFile(__dirname + "/index.html")
+})
 
-app.get("/", (req, res) => {
+
+app.get("/contact", (req, res) => {
     res.sendFile(__dirname + "/public/contactform.html");
 })
 
 
 app.post('/', (req, res) => {
-    console.log(req.body)
+    
 
     const transporter = nodemailer.createTransport({
         service: 'gmail',
