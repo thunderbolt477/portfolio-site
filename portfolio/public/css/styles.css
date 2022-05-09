@@ -96,12 +96,15 @@ body {
 
   #contact {
     padding-top:10%;
-    padding-bottom: 300px;
+    padding-bottom: 10%;
     background-color: #5F7161;
     margin: 0;
     text-align: center;
   }
 
   #footer {
-    padding-top: 10%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    background-color:#D0C9C0;
+    text-align:center;
   }
